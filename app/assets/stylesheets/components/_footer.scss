@@ -1,0 +1,26 @@
+.footer {
+  background: $blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  padding: 0px 50px;
+  color: rgba(250,250,250,0.5);
+
+  @media (max-width: 620px) {
+    height: 80px;
+    padding: 0 15px;
+  }
+}
+
+.footer-copyright a {
+  color: rgba(250,250,250,0.5);
+  text-decoration: none;
+}
+.footer-copyright a:hover {
+  color: rgba(250,250,250,1);
+}
+.footer .fa-heart {
+  color: #D23333;
+  margin: 0 5px;
+}
