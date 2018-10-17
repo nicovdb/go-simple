@@ -10,6 +10,10 @@
   align-items: center;
 }
 
+.space-around {
+  justify-content: space-around;
+}
+
 .align-content-center {
   align-content: center;
 }
@@ -30,6 +34,10 @@
   background-color: $yellow
 }
 
+.bg-light-yellow {
+  background-color: $light-yellow
+}
+
 .bg-blue {
   background-color: $blue;
   p {
@@ -46,7 +54,19 @@
 }
 
 .padding {
-  padding: 15px;
+  padding: 40px;
+
+   @media (max-width: 500px) {
+    padding: 15px;
+  }
+}
+
+.container-fluid {
+  padding: 40px;
+
+  @media (max-width: 500px) {
+    padding: 25px;
+  }
 }
 
 .mr-5 {
