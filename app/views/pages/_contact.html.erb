@@ -5,14 +5,11 @@
       <p>Je vous accompagne avec  de l’ écoute et du  discernement pour vous aider à trouver  dans la confiance  les clefs de vos interrogations sur votre projet d’ avenir</p>
       <p>Contactez moi pour nous rencontrer lors d’un premier RV afin d’ échanger ensemble, répondre à vos questionnements et déterminer  le type d’ accompagnement qui vous correspondrait ; ou contactez moi tout simplement si votre demande est un besoin de conseils plus ponctuel</p>
       <p class="text-center my-5">« <em>N’ attends pas que les évènements arrivent comme tu le souhaites. Décide de vouloir ce qui t’arrive et tu seras heureux</em> » - Epictète</p>
-
     </div>
 
-    <div data-aos='fade-right' data-aos-duration='800' data-aos-once='true' class="row padding mb-5">
-      <div class="col-xs-12 col-md-6">
-        <%= image_tag "map.png", class:"map"  %>
-      </div>
-      <div class="col-xs-12 col-md-6">
+    <div data-aos='fade-right' data-aos-duration='800' data-aos-once='true' class="row padding mb-5 equal">
+
+      <div class="col-xs-12">
         <div class="card margin-mobile bg-yellow d-flex flex-column align-items-center justify-content-center text-white">
           <p><b class="blue">GO SIMPLE !</b></p>
           <p><b>Isabelle Stevenson</b></p>
@@ -24,3 +21,10 @@
     </div>
   </div>
 </div>
+<div
+  id="map"
+  style="width: 100%;
+  height: 400px;"
+  data-markers= "<%= @markers.to_json %>"
+></div>
+
