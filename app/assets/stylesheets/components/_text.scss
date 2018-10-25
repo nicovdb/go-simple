@@ -2,20 +2,31 @@
   margin: 25px 0;
   font-weight: bold;
   font-size: 28px;
+  font-family: 'Lato', sans-serif;
 }
 
 .sous-titre {
   font-size: 24px;
+  font-family: 'Lato', sans-serif;
 }
 
 .sous-sous-titre {
   font-size: 20px;
   margin-left: 25px;
-  color: $blue;
+  color: rgba(29, 26, 178, 0.7);
 }
 
 .citation {
   font-size: 16px;
   font-weight: bold;
   color: $blue;
+}
+
+li {
+  margin-bottom: 8px;
+  color: $yellow;
+  p {
+    color: #333333;
+    margin: 0;
+  }
 }

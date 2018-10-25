@@ -1,26 +1,41 @@
 .footer {
-  background: $blue;
+  background-size: cover !important;
+  background-position: bottom ;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 60px;
-  padding: 0px 50px;
-  color: rgba(250,250,250,0.5);
+  height: 50vh;
+  padding: 15px 50px;
+  color: rgba(29, 26, 178, 0.7);
+  font-size: 12px;
+  position: relative;
 
   @media (max-width: 620px) {
-    height: 80px;
-    padding: 0 15px;
+    padding: 15px;
   }
 }
 
+.footer-copyright {
+  position: absolute;
+  bottom: 15px;
+  left: calc(50% - 150px);
+}
+
 .footer-copyright a {
-  color: rgba(250,250,250,0.5);
+  color: rgba(29, 26, 178, 0.7);
   text-decoration: none;
 }
 .footer-copyright a:hover {
-  color: rgba(250,250,250,1);
+  color: rgba(29, 26, 178, 1);
 }
 .footer .fa-heart {
   color: #D23333;
   margin: 0 5px;
+}
+
+.btn {
+  padding: 10px 15px;
+  font-size: 18px;
+  font-family: 'Lato', sans-serif;
 }
