@@ -38,4 +38,9 @@
   padding: 10px 15px;
   font-size: 18px;
   font-family: 'Lato', sans-serif;
+  transition: 0.5s;
+  &:hover {
+    font-size: 19px;
+    transition: 0.5s;
+  }
 }

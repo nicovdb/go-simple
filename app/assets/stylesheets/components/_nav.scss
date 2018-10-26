@@ -17,6 +17,11 @@
     a:hover {
       background-color: $blue;
       color: white;
+      transition-duration: 0.5s
+    }
+
+    a {
+      transition-duration: 0.5s
     }
   }
 
